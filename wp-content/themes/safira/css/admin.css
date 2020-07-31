@@ -1,0 +1,13 @@
+/* Admin CSS */
+
+.redux-message { 
+
+	display: none;
+
+}
+
+.rAds, .redux-messageredux-notice {
+
+	display: none !important;
+
+}

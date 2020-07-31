@@ -1,0 +1,323 @@
+/* page content background */
+@pagecontentbg: @page_content_background;
+/* row space */
+@rowspace: @row_space;
+/* text */
+@bodyfont: @body_font;
+@bodyfontbackup: @body_font_backup;
+@textcolor: @text_color;
+@textsize: @text_size;
+@textselectedcolor: @text_selected_color;
+@textselectedbg: @text_selected_bg;
+/* link */
+@linkcolor: @link_color;
+@linkhovercolor: @link_hover_color;
+@linkactivecolor: @link_active_color;
+/* heading */
+@headingfont: @heading_font, Arial, Helvetica, sans-serif;
+@headingcolor: @heading_color;
+@headingfontweight: @heading_font_weight;
+/* heading 2 */
+@headingfont2: @heading_font2, Arial, Helvetica, sans-serif;
+@headingcolor2: @heading_color2;
+@headingfontweight2: @heading_font_weight2;
+/* dropdown */
+@dropdownfont: @dropdown_font, Arial, Helvetica, sans-serif;
+@dropdownfontsize: @dropdown_font_size;
+@dropdownfontweight: @dropdown_font_weight;
+@dropdowncolor: @dropdown_color;
+@dropdownbg: @dropdown_bg;
+/* menu */
+@menufont: @menu_font, Arial, Helvetica, sans-serif;
+@menufontsize: @menu_font_size;
+@menufontweight: @menu_font_weight;
+@menucolor: @menu_color;
+@menuhovercolorlevel1: @menu_hover_itemlevel1_color;
+/* submenu */
+@submenufont: @sub_menu_font, Arial, Helvetica, sans-serif;
+@submenufontsize: @sub_menu_font_size;
+@submenufontweight: @sub_menu_font_weight;
+@submenucolor: @sub_menu_color;
+@submenubg: @sub_menu_bg;
+/* categories menu */
+@categoriesfont: @categories_font, Arial, Helvetica, sans-serif;
+@categoriesfontsize: @categories_font_size;
+@categoriesfontweight: @categories_font_weight;
+@categoriescolor: @categories_color;
+@categoriesbg: @categories_menu_bg;
+/* categories submenu */
+@categoriessubmenufont: @categories_sub_menu_font, Arial, Helvetica, sans-serif;
+@categoriessubmenufontsize: @categories_sub_menu_font_size;
+@categoriessubmenufontweight: @categories_sub_menu_font_weight;
+@categoriessubmenucolor: @categories_sub_menu_color;
+@categoriessubmenubg: @categories_sub_menu_bg;
+/* price */
+@pricefont: @price_font, Arial, Helvetica, sans-serif;
+@pricefontsize: @price_font_size;
+@pricefontweight: @price_font_weight;
+@pricecolor: @price_color;
+/* Colors */
+@primarycolor: @primary_color;
+@salecolor: @sale_color;
+@saletextcolor: @saletext_color;
+@ratecolor: @rate_color;
+@bordercolor:@border_color;
+/* Header */
+@headerbg: @header_bg;
+@headercolor: @header_color;
+@headerlinkcolor: @header_link_color;
+@headerlinkhovercolor: @header_link_hover_color;
+@headerlinkactivecolor: @header_link_active_color;
+@headerstickybg: @header_sticky_bg;
+@topbarcolor: @topbar_color;
+@topbarlinkcolor: @topbar_link_color;
+@topbarlinkhovercolor: @topbar_link_hover_color;
+@topbarlinkactivecolor: @topbar_link_active_color;
+/* Footer */
+@footerbg: @footer_bg;
+@footercolor: @footer_color;
+@footertitlecolor: @footer_title_color;
+@footerlinkcolor: @footer_link_color;
+/* Defined colors */
+@darkcolor: #222222;
+@greycolor: #e6e6e6;
+@greycolor2: #a0a0a0;
+@greycolor3: #666666;
+@greycolor4: #f5f5f5;
+@white: #fff;
+@black: #000;
+/* Row container */
+@rowcontainer: @row_container;
+.noneTextSelect(){
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+.image-hover-effect(){
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    vertical-align: top;
+    img{
+        .transition(.3s ease-out 0s);
+    }
+    &:hover{
+        img{
+            .transform(scale(1.02));
+        }
+    }
+}
+/* Opacity */
+.opacity(@opacity){
+    filter: ~"alpha(opacity=@{opacity-ie})";
+    opacity: @opacity;
+    /* IE8 filter */
+    @opacity-ie: (@opacity * 100);
+}
+.clearfix(){
+    &:after{
+        clear: both;
+        content: '';
+        display: block;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+    }
+}
+/* Css3 properties */
+.border-radius(@radius: 4px){
+    -webkit-border-radius: @radius;
+       -moz-border-radius: @radius;
+            border-radius: @radius;
+}
+/* Single Corner Border Radius */
+.border-top-left-radius(@radius){
+    -webkit-border-top-left-radius: @radius;
+            border-top-left-radius: @radius;
+    -moz-border-radius-topleft: @radius;
+}
+.border-top-right-radius(@radius){
+    -webkit-border-top-right-radius: @radius;
+            border-top-right-radius: @radius;
+    -moz-border-radius-topright: @radius;
+}
+.border-bottom-right-radius(@radius){
+    -webkit-border-bottom-right-radius: @radius;
+            border-bottom-right-radius: @radius;
+    -moz-border-radius-bottomright: @radius;
+}
+.border-bottom-left-radius(@radius){
+    -webkit-border-bottom-left-radius: @radius;
+            border-bottom-left-radius: @radius;
+    -moz-border-radius-bottomleft: @radius;
+}
+.border-top-radius(@radius){
+    border-top-left-radius: @radius;
+    border-top-right-radius: @radius;
+}
+.border-right-radius(@radius){
+    border-bottom-right-radius: @radius;
+    border-top-right-radius: @radius;
+}
+.border-bottom-radius(@radius){
+    border-bottom-left-radius: @radius;
+    border-bottom-right-radius: @radius;
+}
+.border-left-radius(@radius){
+    border-bottom-left-radius: @radius;
+    border-top-left-radius: @radius;
+}
+/* Drop shadows */
+.box-shadow(@shadow: 0px 5px 4px 0px fade(@black,10)){
+    -webkit-box-shadow: @shadow;
+       -moz-box-shadow: @shadow;
+            box-shadow: @shadow;
+}
+.transform(@transform){
+    -webkit-transform: @transform;
+       -moz-transform: @transform;
+            transform: @transform;
+}
+/* Transitions */
+.transition(@transition: 0.3s ease){
+    -webkit-transition: @transition;
+       -moz-transition: @transition;
+        -ms-transition: @transition;
+         -o-transition: @transition;
+            transition: @transition;
+}
+.animation(@animation){
+    -webkit-animation: @animation;
+       -moz-animation: @animation;
+         -o-animation: @animation;
+            animation: @animation;
+}
+/* Animation keyframe */
+/* rotate */
+@-moz-keyframes rotate{
+    0%{
+        .transform(rotateY(0deg));
+    }
+    50%{
+        .transform(rotateY(180deg));
+    }
+    100%{
+        .transform(rotateY(0deg));
+    }
+}
+@-webkit-keyframes rotate{
+    0%{
+        .transform(rotateY(0deg));
+    }
+    50%{
+        .transform(rotateY(180deg));
+    }
+    100%{
+        .transform(rotateY(0deg));
+    }
+}
+@keyframes rotate{
+    0%{
+        .transform(rotateY(0deg));
+    }
+    50%{
+        .transform(rotateY(180deg));
+    }
+    100%{
+        .transform(rotateY(0deg));
+    }
+}
+/* countdowntiming */
+@-moz-keyframes countdowntiming{
+    0%{
+        .transform(translateY(50px));
+        .opacity(0);
+    }
+    100%{
+        .transform(translateY(0));
+        .opacity(1);
+    }
+}
+@-webkit-keyframes countdowntiming{
+    0%{
+        .transform(translateY(50px));
+        .opacity(0);
+    }
+    100%{
+        .transform(translateY(0));
+        .opacity(1);
+    }
+}
+@keyframes countdowntiming{
+    0%{
+        .transform(translateY(50px));
+        .opacity(0);
+    }
+    100%{
+        .transform(translateY(0));
+        .opacity(1);
+    }
+}
+/* zoomIn */
+@-moz-keyframes zoomIn{
+    0%{
+        .opacity(0);
+		.transform(scale3d(.8, .8, .8));
+    }
+    50%{
+        .opacity(1);
+    }
+}
+@-webkit-keyframes zoomIn{
+    0%{
+        .opacity(0);
+		.transform(scale3d(.8, .8, .8));
+    }
+    50%{
+        .opacity(1);
+    }
+}
+@keyframes zoomIn{
+    0%{
+        .opacity(0);
+		transform(scale3d(.8, .8, .8));
+    }
+    50%{
+        .opacity(1);
+    }
+}
+/* Button mixin */
+.buttonMixin(){
+    background: @primarycolor;
+    border: none;
+    .box-shadow(none);
+    color: @white;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.0714em;
+    font-weight: 400;
+    height: 44px;
+    line-height: 44px;
+    outline: none;
+    overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+    padding: 0 35px;
+    text-shadow: none;
+    text-transform: uppercase;
+    vertical-align: middle;
+	text-align: center;
+    .border-radius(22px);
+    .transition();
+    &:hover{
+        background: @darkcolor;
+    }
+    &.disabled,
+    &:disabled,
+    &[disabled]{
+        padding: 0px 35px !important;
+        &:hover{
+        }
+    }
+}

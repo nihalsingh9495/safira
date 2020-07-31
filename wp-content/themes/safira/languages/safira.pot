@@ -1,0 +1,2546 @@
+# Copyright (C) 2014 the WordPress team
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Safira 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/roadthemes\n"
+"POT-Creation-Date: 2020-06-06 08:13+0700\n"
+"PO-Revision-Date: 2015-12-14 21:10+0700\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3.1\n"
+"X-Poedit-KeywordsList: _e;_n;__;_x;_ex;esc_html;esc_html__;esc_html_e;"
+"esc_attr;esc_attr__;esc_attr_e;esc_url;esc_url__;esc_url_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../safira/404.php:15
+msgid "OOPS! PAGE NOT BE FOUND"
+msgstr ""
+
+#: ../safira/404.php:16
+msgid ""
+"Sorry but the page you are looking for does not exist, has been removed, "
+"changed or is temporarity unavailable."
+msgstr ""
+
+#: ../safira/404.php:18
+msgid "Back to home"
+msgstr ""
+
+#: ../safira/404.php:18
+msgid "Back to home page"
+msgstr ""
+
+#: ../safira/author.php:94
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: ../safira/author.php:110
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../safira/category.php:83
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:292 ../safira/functions.php:1351
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:293 ../safira/functions.php:1352
+msgid "Install Plugins"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:295 ../safira/functions.php:1353
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:297
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:298 ../safira/functions.php:1354
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:350 ../safira/functions.php:1365
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:351
+#: ../safira/class-tgm-plugin-activation.php:723
+#: ../safira/class-tgm-plugin-activation.php:2222
+#: ../safira/class-tgm-plugin-activation.php:3112
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:352
+#: ../safira/class-tgm-plugin-activation.php:2752 ../safira/functions.php:1366
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:353
+#: ../safira/class-tgm-plugin-activation.php:2573
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:355
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:357
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:359
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:360
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:361
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:362
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:461
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:462
+msgid "Update Required"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:814
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:814
+#: ../safira/class-tgm-plugin-activation.php:817
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:817
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:1742
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:1996
+msgid "Required"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:1998
+msgid "Recommended"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2012
+msgid "WordPress Rsafiratory"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2015
+msgid "External Source"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2018
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2033
+msgid "Not Installed"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2036
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2038
+msgid "Active"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2042
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2044
+msgid "Requires Update"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2046
+msgid "Update recommended"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2053
+#, php-format
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2096
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2100
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2104
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2178
+msgid "unknown"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2184
+msgid "Installed version:"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2191
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2201
+msgid "Available version:"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2222
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2235
+msgid "Plugin"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2236
+msgid "Source"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2237
+msgid "Type"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2240
+msgid "Version"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2241
+#: ../safira/woocommerce/myaccount/my-orders.php:36
+#: ../safira/woocommerce/myaccount/my-orders.php:55
+msgid "Status"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2285
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2290
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2295
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2358
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2387
+msgid "Install"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2392
+msgid "Update"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2395
+msgid "Activate"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2420
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2422
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2455
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2457
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2538
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2559
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:2751
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:3039
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:3042
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:3044
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:3047
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:3049
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:3050
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:3052
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:3055
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:3057
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:3058
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../safira/class-tgm-plugin-activation.php:3060
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../safira/comments.php:27 ../safira/functions.php:1165
+msgid "1 comment"
+msgstr ""
+
+#: ../safira/comments.php:44
+msgid "Comments are closed."
+msgstr ""
+
+#: ../safira/content-audio.php:32 ../safira/content-audio.php:103
+#: ../safira/content-gallery.php:24 ../safira/content-gallery.php:119
+#: ../safira/content-image.php:26 ../safira/content-image.php:93
+#: ../safira/content-video.php:30 ../safira/content-video.php:125
+#: ../safira/content.php:26 ../safira/content.php:93
+#: ../safira/include/shortcodes.php:561
+msgid "By"
+msgstr ""
+
+#: ../safira/content-audio.php:37 ../safira/content-audio.php:108
+#: ../safira/content-gallery.php:29 ../safira/content-gallery.php:124
+#: ../safira/content-image.php:31 ../safira/content-image.php:98
+#: ../safira/content-video.php:35 ../safira/content-video.php:130
+#: ../safira/content.php:31 ../safira/content.php:98
+#: ../safira/woocommerce/myaccount/my-orders.php:35
+#: ../safira/woocommerce/myaccount/my-orders.php:52
+msgid "Date"
+msgstr ""
+
+#: ../safira/content-audio.php:48 ../safira/content-audio.php:119
+#: ../safira/content-gallery.php:41 ../safira/content-gallery.php:136
+#: ../safira/content-image.php:42 ../safira/content-image.php:109
+#: ../safira/content-video.php:47 ../safira/content-video.php:142
+#: ../safira/content.php:42 ../safira/content.php:110
+#: ../safira/include/map_shortcodes.php:494
+#: ../safira/include/map_shortcodes.php:726
+msgid "Category"
+msgstr ""
+
+#: ../safira/content-audio.php:94 ../safira/content-gallery.php:110
+#: ../safira/content-image.php:84 ../safira/content-video.php:116
+#: ../safira/content.php:84
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../safira/content-audio.php:95 ../safira/content-audio.php:137
+#: ../safira/content-gallery.php:111 ../safira/content-gallery.php:160
+#: ../safira/content-image.php:85 ../safira/content-image.php:124
+#: ../safira/content-page.php:13 ../safira/content-video.php:117
+#: ../safira/content-video.php:157 ../safira/content.php:85
+#: ../safira/content.php:125 ../safira/image.php:119
+msgid "Pages:"
+msgstr ""
+
+#: ../safira/content-audio.php:133 ../safira/content-gallery.php:156
+#: ../safira/content-image.php:120 ../safira/content-video.php:153
+#: ../safira/content.php:121
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: ../safira/content-audio.php:162 ../safira/content-gallery.php:184
+#: ../safira/content-image.php:149 ../safira/content-video.php:181
+#: ../safira/content.php:149
+msgid "About the Author:"
+msgstr ""
+
+#: ../safira/content-audio.php:184 ../safira/content-gallery.php:206
+#: ../safira/content-image.php:171 ../safira/content-video.php:203
+#: ../safira/content.php:171
+msgid "Related posts"
+msgstr ""
+
+#: ../safira/content-none.php:12 ../safira/index.php:105
+#: ../safira/search.php:85
+msgid "Nothing Found"
+msgstr ""
+
+#: ../safira/content-none.php:15 ../safira/index.php:108
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: ../safira/footer.php:42
+msgid "Copyright"
+msgstr ""
+
+#: ../safira/footer.php:42
+msgid "All Rights Reserved"
+msgstr ""
+
+#: ../safira/functions.php:140
+msgid "Read more"
+msgstr ""
+
+#: ../safira/functions.php:169
+msgid "Search... "
+msgstr ""
+
+#: ../safira/functions.php:174 ../safira/functions.php:191
+msgid "Search"
+msgstr ""
+
+#: ../safira/functions.php:186 ../safira/functions.php:626
+#: ../safira/functions.php:632 ../safira/functions.php:636
+msgid "Search product..."
+msgstr ""
+
+#: ../safira/functions.php:317
+msgid "Primary Menu"
+msgstr ""
+
+#: ../safira/functions.php:318 ../safira/include/map_shortcodes.php:65
+msgid "Sticky Menu"
+msgstr ""
+
+#: ../safira/functions.php:319 ../safira/include/map_shortcodes.php:83
+msgid "Mobile Menu"
+msgstr ""
+
+#: ../safira/functions.php:320 ../safira/include/map_shortcodes.php:119
+#: ../safira/theme-config.php:415
+msgid "Categories Menu"
+msgstr ""
+
+#: ../safira/functions.php:642 ../safira/functions.php:648
+#: ../safira/functions.php:652
+msgid "Search..."
+msgstr ""
+
+#: ../safira/functions.php:726
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../safira/functions.php:728
+msgid "Sidebar on blog page"
+msgstr ""
+
+#: ../safira/functions.php:735
+msgid "Shop Sidebar"
+msgstr ""
+
+#: ../safira/functions.php:737
+msgid "Sidebar on shop page (only sidebar shop layout)"
+msgstr ""
+
+#: ../safira/functions.php:744
+msgid "Single product Sidebar"
+msgstr ""
+
+#: ../safira/functions.php:746
+msgid "Sidebar on product details page"
+msgstr ""
+
+#: ../safira/functions.php:753
+msgid "Pages Sidebar"
+msgstr ""
+
+#: ../safira/functions.php:755
+msgid "Sidebar on content pages"
+msgstr ""
+
+#: ../safira/functions.php:787
+msgid ""
+"This content will be used to replace the featured image, use shortcode here"
+msgstr ""
+
+#: ../safira/functions.php:803
+msgid "Select a custom sidebar for this post/page"
+msgstr ""
+
+#: ../safira/functions.php:806
+msgid "- None -"
+msgstr ""
+
+#: ../safira/functions.php:819
+msgid "Sidebar position"
+msgstr ""
+
+#: ../safira/functions.php:822 ../safira/theme-config.php:898
+#: ../safira/theme-config.php:951 ../safira/theme-config.php:1025
+#: ../safira/theme-config.php:1126
+msgid "Left"
+msgstr ""
+
+#: ../safira/functions.php:823 ../safira/theme-config.php:899
+#: ../safira/theme-config.php:952 ../safira/theme-config.php:1026
+#: ../safira/theme-config.php:1127
+msgid "Right"
+msgstr ""
+
+#: ../safira/functions.php:919 ../safira/functions.php:965
+msgid "Home"
+msgstr ""
+
+#: ../safira/functions.php:953 ../safira/functions.php:954
+#: ../safira/functions.php:955
+#, php-format
+msgid "Archive for: %s"
+msgstr ""
+
+#: ../safira/functions.php:954
+msgid "F Y"
+msgstr ""
+
+#: ../safira/functions.php:955
+msgid "Y"
+msgstr ""
+
+#: ../safira/functions.php:956
+msgid "Archive for"
+msgstr ""
+
+#: ../safira/functions.php:957
+msgid "Blog Archives"
+msgstr ""
+
+#: ../safira/functions.php:958
+msgid "Search Results"
+msgstr ""
+
+#: ../safira/functions.php:970 ../safira/index.php:70 ../safira/single.php:45
+#: ../safira/theme-config.php:1097 ../safira/theme-config.php:1105
+msgid "Blog"
+msgstr ""
+
+#: ../safira/functions.php:1031 ../safira/functions.php:1032
+msgid "on"
+msgstr ""
+
+#: ../safira/functions.php:1056
+msgid "Post navigation"
+msgstr ""
+
+#: ../safira/functions.php:1057
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../safira/functions.php:1058
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../safira/functions.php:1078
+msgid "Previous"
+msgstr ""
+
+#: ../safira/functions.php:1079
+msgid "Next"
+msgstr ""
+
+#: ../safira/functions.php:1102
+msgid "Pingback:"
+msgstr ""
+
+#: ../safira/functions.php:1102
+msgid "(Edit)"
+msgstr ""
+
+#: ../safira/functions.php:1120
+msgid "Post author"
+msgstr ""
+
+#: ../safira/functions.php:1125
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../safira/functions.php:1129
+msgid "Reply"
+msgstr ""
+
+#: ../safira/functions.php:1133
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../safira/functions.php:1137 ../safira/image.php:144
+msgid "Edit"
+msgstr ""
+
+#: ../safira/functions.php:1161
+msgid "0 comments"
+msgstr ""
+
+#: ../safira/functions.php:1163 ../safira/functions.php:1209
+#: ../safira/include/shortcodes.php:543
+msgid " comments"
+msgstr ""
+
+#: ../safira/functions.php:1171 ../safira/functions.php:1175
+#, php-format
+msgid "Tags: %2$s"
+msgstr ""
+
+#: ../safira/functions.php:1173
+#, php-format
+msgid "%1$s / Tags: %2$s"
+msgstr ""
+
+#: ../safira/functions.php:1177 ../safira/functions.php:1215
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: ../safira/functions.php:1190
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../safira/functions.php:1193
+#, php-format
+msgid "Posted by %1$s / %2$s"
+msgstr ""
+
+#: ../safira/functions.php:1207 ../safira/include/shortcodes.php:541
+msgid "<span>0</span> comments"
+msgstr ""
+
+#: ../safira/functions.php:1211 ../safira/include/shortcodes.php:545
+msgid "<span>1</span> comment"
+msgstr ""
+
+#: ../safira/functions.php:1224
+msgid "RoadThemes Helper"
+msgstr ""
+
+#: ../safira/functions.php:1234
+msgid "Mega Main Menu"
+msgstr ""
+
+#: ../safira/functions.php:1241
+msgid "Import Sample Data"
+msgstr ""
+
+#: ../safira/functions.php:1248
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../safira/functions.php:1255
+msgid "Visual Composer"
+msgstr ""
+
+#: ../safira/functions.php:1262
+msgid "Templatera"
+msgstr ""
+
+#: ../safira/functions.php:1269 ../safira/include/map_shortcodes.php:665
+#: ../safira/theme-config.php:1147
+msgid "Testimonials"
+msgstr ""
+
+#: ../safira/functions.php:1277
+msgid "Redux Framework"
+msgstr ""
+
+#: ../safira/functions.php:1284
+msgid "Contact Form 7"
+msgstr ""
+
+#: ../safira/functions.php:1289
+msgid "MailChimp for WordPress"
+msgstr ""
+
+#: ../safira/functions.php:1294
+msgid "Shortcodes Ultimate"
+msgstr ""
+
+#: ../safira/functions.php:1299
+msgid "Simple Local Avatars"
+msgstr ""
+
+#: ../safira/functions.php:1305
+msgid "TinyMCE Advanced"
+msgstr ""
+
+#: ../safira/functions.php:1310
+msgid "Widget Importer & Exporter"
+msgstr ""
+
+#: ../safira/functions.php:1315
+msgid "WooCommerce"
+msgstr ""
+
+#: ../safira/functions.php:1320
+msgid "YITH WooCommerce Compare"
+msgstr ""
+
+#: ../safira/functions.php:1325
+msgid "YITH WooCommerce Wishlist"
+msgstr ""
+
+#: ../safira/functions.php:1330
+msgid "YITH WooCommerce Zoom Magnifier"
+msgstr ""
+
+#: ../safira/functions.php:1367
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../safira/header.php:127 ../safira/theme-config.php:392
+#: ../safira/theme-config.php:400
+msgid "Menu"
+msgstr ""
+
+#: ../safira/image.php:133
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a href=\"%6$s\" rel="
+"\"gallery\">%8$s</a>."
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:7
+msgid "Logo"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:8
+msgid "Insert logo image"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:11
+#: ../safira/include/map_shortcodes.php:51
+#: ../safira/include/map_shortcodes.php:69
+#: ../safira/include/map_shortcodes.php:87
+#: ../safira/include/map_shortcodes.php:105
+#: ../safira/include/map_shortcodes.php:123
+#: ../safira/include/map_shortcodes.php:163
+#: ../safira/include/map_shortcodes.php:181
+#: ../safira/include/map_shortcodes.php:199
+#: ../safira/include/map_shortcodes.php:217
+#: ../safira/include/map_shortcodes.php:235
+#: ../safira/include/map_shortcodes.php:357
+#: ../safira/include/map_shortcodes.php:479
+#: ../safira/include/map_shortcodes.php:669
+#: ../safira/include/map_shortcodes.php:784
+#: ../safira/include/map_shortcodes.php:828
+#: ../safira/include/map_shortcodes.php:867
+#: ../safira/include/map_shortcodes.php:910
+msgid "Theme"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:18
+msgid "Upload logo image"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:19
+msgid ""
+"Note: For retina screen, logo image size is at least twice as width and "
+"height (width is set below) to display clearly"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:27
+msgid "Insert logo link or not"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:30
+#: ../safira/include/map_shortcodes.php:304
+#: ../safira/include/map_shortcodes.php:314
+#: ../safira/include/map_shortcodes.php:426
+#: ../safira/include/map_shortcodes.php:436
+#: ../safira/include/map_shortcodes.php:606
+#: ../safira/include/map_shortcodes.php:618
+#: ../safira/include/map_shortcodes.php:687
+#: ../safira/include/map_shortcodes.php:698
+#: ../safira/include/map_shortcodes.php:718
+#: ../safira/include/map_shortcodes.php:736
+#: ../safira/include/map_shortcodes.php:745
+msgid "Yes"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:31
+#: ../safira/include/map_shortcodes.php:305
+#: ../safira/include/map_shortcodes.php:313
+#: ../safira/include/map_shortcodes.php:427
+#: ../safira/include/map_shortcodes.php:435
+#: ../safira/include/map_shortcodes.php:607
+#: ../safira/include/map_shortcodes.php:617
+#: ../safira/include/map_shortcodes.php:688
+#: ../safira/include/map_shortcodes.php:699
+#: ../safira/include/map_shortcodes.php:719
+#: ../safira/include/map_shortcodes.php:737
+#: ../safira/include/map_shortcodes.php:746
+msgid "No"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:38
+msgid "Logo width (unit: px)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:39
+msgid "Insert number. Leave blank if you want to use original image size"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:41
+#: ../safira/include/map_shortcodes.php:708
+msgid "150"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:47
+msgid "Main Menu"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:48
+#: ../safira/include/map_shortcodes.php:58
+msgid "Set Primary Menu in Apperance - Menus - Manage Locations"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:66
+#: ../safira/include/map_shortcodes.php:76
+msgid "Set Sticky Menu in Apperance - Menus - Manage Locations"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:84
+#: ../safira/include/map_shortcodes.php:94
+msgid "Set Mobile Menu in Apperance - Menus - Manage Locations"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:101
+#: ../safira/include/map_shortcodes.php:102
+msgid "Wishlist"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:112
+#: ../safira/include/map_shortcodes.php:170
+#: ../safira/include/map_shortcodes.php:188
+#: ../safira/include/map_shortcodes.php:206
+#: ../safira/include/map_shortcodes.php:224
+msgid "This widget does not have settings"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:120
+#: ../safira/include/map_shortcodes.php:130
+msgid "Set Categories Menu in Apperance - Menus - Manage Locations"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:136
+msgid "Inner Category Menu"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:137
+msgid "Always show category menu on inner pages"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:143
+msgid "Home Category Menu"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:144
+msgid "Always show category menu on home page"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:159 ../safira/theme-config.php:555
+#: ../safira/theme-config.php:561
+msgid "Social Icons"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:160
+msgid "Configure icons and links in Theme Options"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:177
+#: ../safira/include/map_shortcodes.php:178
+msgid "Mini Cart"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:195
+#: ../safira/include/map_shortcodes.php:196
+msgid "Product Search (No dropdown)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:213
+#: ../safira/include/map_shortcodes.php:214
+msgid "Product Search (Dropdown)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:231 ../safira/theme-config.php:796
+msgid "Image slider"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:232
+#: ../safira/include/map_shortcodes.php:354
+msgid "Upload images and links in Theme Options"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:242
+#: ../safira/include/map_shortcodes.php:364
+#: ../safira/include/map_shortcodes.php:543
+msgid "Number of rows"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:245
+#: ../safira/include/map_shortcodes.php:297
+#: ../safira/include/map_shortcodes.php:367
+#: ../safira/include/map_shortcodes.php:419
+#: ../safira/include/map_shortcodes.php:525
+#: ../safira/include/map_shortcodes.php:547
+#: ../safira/include/map_shortcodes.php:596
+#: ../safira/include/map_shortcodes.php:876
+#: ../safira/include/map_shortcodes.php:884
+msgid "1"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:246
+#: ../safira/include/map_shortcodes.php:281
+#: ../safira/include/map_shortcodes.php:289
+#: ../safira/include/map_shortcodes.php:368
+#: ../safira/include/map_shortcodes.php:411
+#: ../safira/include/map_shortcodes.php:526
+#: ../safira/include/map_shortcodes.php:548
+#: ../safira/include/map_shortcodes.php:578
+#: ../safira/include/map_shortcodes.php:587
+msgid "2"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:247
+#: ../safira/include/map_shortcodes.php:273
+#: ../safira/include/map_shortcodes.php:369
+#: ../safira/include/map_shortcodes.php:403
+#: ../safira/include/map_shortcodes.php:527
+#: ../safira/include/map_shortcodes.php:549
+#: ../safira/include/map_shortcodes.php:560
+#: ../safira/include/map_shortcodes.php:569
+msgid "3"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:248
+#: ../safira/include/map_shortcodes.php:257
+#: ../safira/include/map_shortcodes.php:265
+#: ../safira/include/map_shortcodes.php:370
+#: ../safira/include/map_shortcodes.php:395
+#: ../safira/include/map_shortcodes.php:528
+#: ../safira/include/map_shortcodes.php:550
+msgid "4"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:255
+#: ../safira/include/map_shortcodes.php:377
+msgid "Number of columns (screen: over 1201px)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:263
+#: ../safira/include/map_shortcodes.php:385
+#: ../safira/include/map_shortcodes.php:558
+msgid "Number of columns (screen: 992px - 1199px)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:271
+#: ../safira/include/map_shortcodes.php:393
+#: ../safira/include/map_shortcodes.php:567
+msgid "Number of columns (screen: 768px - 991px)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:279
+#: ../safira/include/map_shortcodes.php:401
+#: ../safira/include/map_shortcodes.php:576
+msgid "Number of columns (screen: 640px - 767px)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:287
+#: ../safira/include/map_shortcodes.php:409
+#: ../safira/include/map_shortcodes.php:585
+msgid "Number of columns (screen: 480px - 639px)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:295
+#: ../safira/include/map_shortcodes.php:417
+#: ../safira/include/map_shortcodes.php:594
+msgid "Number of columns (screen: under 479px)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:301
+#: ../safira/include/map_shortcodes.php:423
+#: ../safira/include/map_shortcodes.php:601
+#: ../safira/include/map_shortcodes.php:733
+msgid "Navigation"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:310
+#: ../safira/include/map_shortcodes.php:432
+#: ../safira/include/map_shortcodes.php:612
+#: ../safira/include/map_shortcodes.php:742
+msgid "Pagination"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:319
+#: ../safira/include/map_shortcodes.php:441
+#: ../safira/include/map_shortcodes.php:623
+msgid "Item Margin (unit: pixel)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:321
+#: ../safira/include/map_shortcodes.php:625
+msgid "30"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:325
+#: ../safira/include/map_shortcodes.php:447
+#: ../safira/include/map_shortcodes.php:631
+#: ../safira/include/map_shortcodes.php:751
+msgid "Slider speed number (unit: second)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:327
+#: ../safira/include/map_shortcodes.php:449
+#: ../safira/include/map_shortcodes.php:633
+#: ../safira/include/map_shortcodes.php:753
+msgid "500"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:332
+#: ../safira/include/map_shortcodes.php:454
+#: ../safira/include/map_shortcodes.php:639
+#: ../safira/include/map_shortcodes.php:758
+msgid "Slider loop"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:338
+#: ../safira/include/map_shortcodes.php:460
+#: ../safira/include/map_shortcodes.php:646
+#: ../safira/include/map_shortcodes.php:764
+msgid "Slider Auto"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:343
+#: ../safira/include/map_shortcodes.php:465
+#: ../safira/include/map_shortcodes.php:769
+#: ../safira/include/map_shortcodes.php:814
+#: ../safira/include/map_shortcodes.php:849
+#: ../safira/include/map_shortcodes.php:896
+msgid "Style"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:346
+#: ../safira/include/map_shortcodes.php:468
+#: ../safira/include/map_shortcodes.php:656
+#: ../safira/include/map_shortcodes.php:772
+#: ../safira/include/map_shortcodes.php:817
+#: ../safira/include/map_shortcodes.php:899
+msgid "Style 1"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:353 ../safira/theme-config.php:815
+msgid "Brand Logos"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:379
+#: ../safira/include/map_shortcodes.php:387
+#: ../safira/include/map_shortcodes.php:551
+msgid "5"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:443
+#: ../safira/include/map_shortcodes.php:496
+#: ../safira/include/map_shortcodes.php:728
+msgid "0"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:475
+msgid "Latest posts"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:476
+msgid "List posts"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:486
+msgid "Number of posts"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:488
+#: ../safira/include/map_shortcodes.php:678
+msgid "10"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:497
+msgid ""
+"Slug of the category (example: slug-1, slug-2). Default is 0 : show all posts"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:503
+msgid "Image scale"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:506
+msgid "Wide"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:507
+msgid "Square"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:514
+msgid "Excerpt length"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:516
+msgid "20"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:522
+msgid "Number of columns"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:533
+msgid "Enable slider"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:537
+#: ../safira/include/map_shortcodes.php:545
+#: ../safira/include/map_shortcodes.php:561
+#: ../safira/include/map_shortcodes.php:570
+#: ../safira/include/map_shortcodes.php:579
+#: ../safira/include/map_shortcodes.php:588
+#: ../safira/include/map_shortcodes.php:597
+#: ../safira/include/map_shortcodes.php:604
+#: ../safira/include/map_shortcodes.php:615
+#: ../safira/include/map_shortcodes.php:627
+#: ../safira/include/map_shortcodes.php:635
+#: ../safira/include/map_shortcodes.php:642
+#: ../safira/include/map_shortcodes.php:649
+#: ../safira/include/map_shortcodes.php:659
+msgid "Slider Options"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:653
+msgid "Navigation Style"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:657
+#: ../safira/include/map_shortcodes.php:853
+msgid "Style 2"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:666
+msgid "Testimonial slider"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:676
+msgid "Number of testimonial"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:684
+msgid "Display Author"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:695
+msgid "Display Avatar"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:706
+msgid "Avatar image size"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:709
+msgid "Avatar image size in pixels. Default is 150"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:715
+msgid "Display URL"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:729
+msgid ""
+"Slug of the category (only one category). Default is 0 : show all "
+"testimonials"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:773
+msgid "Style 2 (about page)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:780
+#: ../safira/include/map_shortcodes.php:781
+msgid "Counter"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:791
+msgid "Image icon"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:794
+msgid "Upload icon image"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:800
+msgid "Number"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:808
+msgid "Text"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:824
+#: ../safira/include/map_shortcodes.php:825
+msgid "Heading Title"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:835
+msgid "Heading sub-title element"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:843
+msgid "Heading title element"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:845 ../safira/theme-config.php:806
+#: ../safira/theme-config.php:825
+msgid "Title"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:852
+msgid "Style 1 (Default)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:854
+msgid "Style 3"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:855
+msgid "Style 4"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:856
+msgid "Style 5 (Footer title)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:863
+#: ../safira/include/map_shortcodes.php:864
+msgid "Countdown"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:874
+msgid "End date (day)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:882
+msgid "End date (month)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:890
+msgid "End date (year)"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:892
+msgid "2020"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:906
+#: ../safira/include/map_shortcodes.php:907
+msgid "Login/logout links"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:917
+msgid "Text Wellcome"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:919
+msgid "Hello"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:925
+msgid "Text Login"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:927
+msgid "Login"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:933
+msgid "Text Logout"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:935
+msgid "Logout"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:941
+msgid "Text Signup"
+msgstr ""
+
+#: ../safira/include/map_shortcodes.php:943
+msgid "Signup"
+msgstr ""
+
+#: ../safira/include/shortcodes.php:104
+msgid "All Derpartment"
+msgstr ""
+
+#: ../safira/include/shortcodes.php:108 ../safira/theme-config.php:458
+msgid "More Categories"
+msgstr ""
+
+#: ../safira/include/shortcodes.php:109
+msgid "Close Menu"
+msgstr ""
+
+#: ../safira/include/shortcodes.php:180
+msgid "All"
+msgstr ""
+
+#: ../safira/include/shortcodes.php:561
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: ../safira/include/shortcodes.php:565
+msgid "in"
+msgstr ""
+
+#: ../safira/include/wooajax.php:87 ../safira/woocommerce/cart/mini-cart.php:29
+#, php-format
+msgid "%d"
+msgstr ""
+
+#: ../safira/include/wooajax.php:100
+msgid "Product is added to cart"
+msgstr ""
+
+#: ../safira/include/wooajax.php:121
+msgid "View Cart"
+msgstr ""
+
+#: ../safira/index.php:96
+msgid "No posts to display"
+msgstr ""
+
+#: ../safira/index.php:99
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr ""
+
+#: ../safira/search.php:63
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../safira/search.php:88
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../safira/tag.php:81
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../safira/theme-config.php:55
+msgid "Section via hook"
+msgstr ""
+
+#: ../safira/theme-config.php:56
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: ../safira/theme-config.php:73
+msgid "Testing filter hook!"
+msgstr ""
+
+#: ../safira/theme-config.php:87
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: ../safira/theme-config.php:93 ../safira/theme-config.php:96
+msgid "Current theme preview"
+msgstr ""
+
+#: ../safira/theme-config.php:101
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../safira/theme-config.php:102
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ../safira/theme-config.php:103
+msgid "Tags"
+msgstr ""
+
+#: ../safira/theme-config.php:108
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: ../safira/theme-config.php:108
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: ../safira/theme-config.php:118
+msgid "General"
+msgstr ""
+
+#: ../safira/theme-config.php:119
+msgid "General theme options"
+msgstr ""
+
+#: ../safira/theme-config.php:125
+msgid "Body background"
+msgstr ""
+
+#: ../safira/theme-config.php:126
+msgid "Upload image or select color. Only work with box layout"
+msgstr ""
+
+#: ../safira/theme-config.php:132
+msgid "Page content background"
+msgstr ""
+
+#: ../safira/theme-config.php:133
+msgid "Select background for page content."
+msgstr ""
+
+#: ../safira/theme-config.php:139
+msgid "Border Option"
+msgstr ""
+
+#: ../safira/theme-config.php:140
+msgid "Only color validation can be done on this field type"
+msgstr ""
+
+#: ../safira/theme-config.php:146
+msgid "Back To Top"
+msgstr ""
+
+#: ../safira/theme-config.php:147
+msgid "Show back to top button on all pages"
+msgstr ""
+
+#: ../safira/theme-config.php:153
+msgid "Row space"
+msgstr ""
+
+#: ../safira/theme-config.php:154
+msgid "Space between row."
+msgstr ""
+
+#: ../safira/theme-config.php:161
+msgid "Width Container"
+msgstr ""
+
+#: ../safira/theme-config.php:162
+msgid "Width of container."
+msgstr ""
+
+#: ../safira/theme-config.php:170
+msgid "Colors"
+msgstr ""
+
+#: ../safira/theme-config.php:171
+msgid "Color options"
+msgstr ""
+
+#: ../safira/theme-config.php:177
+msgid "Primary Color"
+msgstr ""
+
+#: ../safira/theme-config.php:178
+msgid "Pick a color for primary color."
+msgstr ""
+
+#: ../safira/theme-config.php:186
+msgid "Hover Color for Item Menu"
+msgstr ""
+
+#: ../safira/theme-config.php:187
+msgid "Pick a color for hover/active color of item level 1 (Horizontal Menu)."
+msgstr ""
+
+#: ../safira/theme-config.php:195
+msgid "Sale Label BG Color"
+msgstr ""
+
+#: ../safira/theme-config.php:196
+msgid "Pick a color for bg sale label."
+msgstr ""
+
+#: ../safira/theme-config.php:204
+msgid "Sale Label Text Color"
+msgstr ""
+
+#: ../safira/theme-config.php:205
+msgid "Pick a color for sale label text."
+msgstr ""
+
+#: ../safira/theme-config.php:213
+msgid "Rating Star Color"
+msgstr ""
+
+#: ../safira/theme-config.php:214
+msgid "Pick a color for star of rating."
+msgstr ""
+
+#: ../safira/theme-config.php:222
+msgid "Link Color"
+msgstr ""
+
+#: ../safira/theme-config.php:223
+msgid "Pick a color for link."
+msgstr ""
+
+#: ../safira/theme-config.php:234
+msgid "Text selected background"
+msgstr ""
+
+#: ../safira/theme-config.php:235
+msgid "Select background for selected text."
+msgstr ""
+
+#: ../safira/theme-config.php:243
+msgid "Text selected color"
+msgstr ""
+
+#: ../safira/theme-config.php:244
+msgid "Select color for selected text."
+msgstr ""
+
+#: ../safira/theme-config.php:272
+msgid "Header 1"
+msgstr ""
+
+#: ../safira/theme-config.php:273
+msgid "Header Mobile"
+msgstr ""
+
+#: ../safira/theme-config.php:274
+msgid "Header Sticky"
+msgstr ""
+
+#: ../safira/theme-config.php:277
+msgid "Header"
+msgstr ""
+
+#: ../safira/theme-config.php:278
+msgid "Header options"
+msgstr ""
+
+#: ../safira/theme-config.php:284
+msgid "Header Layout"
+msgstr ""
+
+#: ../safira/theme-config.php:286 ../safira/theme-config.php:296
+msgid "Go to WPBakery Page Builder => Templates to create/edit layout"
+msgstr ""
+
+#: ../safira/theme-config.php:294
+msgid "Header Mobile Layout"
+msgstr ""
+
+#: ../safira/theme-config.php:304
+msgid "Header background"
+msgstr ""
+
+#: ../safira/theme-config.php:305 ../safira/theme-config.php:519
+#: ../safira/theme-config.php:1191
+msgid "Upload image or select color."
+msgstr ""
+
+#: ../safira/theme-config.php:311
+msgid "Header text color"
+msgstr ""
+
+#: ../safira/theme-config.php:312
+msgid "Pick a color for header color."
+msgstr ""
+
+#: ../safira/theme-config.php:320
+msgid "Header link color"
+msgstr ""
+
+#: ../safira/theme-config.php:321
+msgid "Pick a color for header link color."
+msgstr ""
+
+#: ../safira/theme-config.php:332
+msgid "Dropdown menu background"
+msgstr ""
+
+#: ../safira/theme-config.php:333
+msgid "Pick a color for dropdown menu background."
+msgstr ""
+
+#: ../safira/theme-config.php:342
+msgid "Sticky Header"
+msgstr ""
+
+#: ../safira/theme-config.php:348
+msgid "Use sticky header"
+msgstr ""
+
+#: ../safira/theme-config.php:354
+msgid "Header sticky background"
+msgstr ""
+
+#: ../safira/theme-config.php:355
+msgid "Set color and alpha channel"
+msgstr ""
+
+#: ../safira/theme-config.php:370
+msgid "Choose"
+msgstr ""
+
+#: ../safira/theme-config.php:371
+#: ../safira/woocommerce/myaccount/my-orders.php:73
+msgid "Cancel"
+msgstr ""
+
+#: ../safira/theme-config.php:375
+msgid "Select Color"
+msgstr ""
+
+#: ../safira/theme-config.php:381
+msgid "Header Sticky Layout"
+msgstr ""
+
+#: ../safira/theme-config.php:383 ../safira/theme-config.php:510
+msgid "Go to Visual Composer => Templates to create/edit layout"
+msgstr ""
+
+#: ../safira/theme-config.php:398
+msgid "Mobile menu label"
+msgstr ""
+
+#: ../safira/theme-config.php:399
+msgid "The label for mobile menu (example: Menu, Go to..."
+msgstr ""
+
+#: ../safira/theme-config.php:405
+msgid "Submenu background"
+msgstr ""
+
+#: ../safira/theme-config.php:406
+msgid "Pick a color for sub menu bg ."
+msgstr ""
+
+#: ../safira/theme-config.php:420
+msgid "Category menu background"
+msgstr ""
+
+#: ../safira/theme-config.php:421
+msgid "Pick a color for category menu background."
+msgstr ""
+
+#: ../safira/theme-config.php:429
+msgid "Sub category menu background"
+msgstr ""
+
+#: ../safira/theme-config.php:430
+msgid "Pick a color for category sub menu background."
+msgstr ""
+
+#: ../safira/theme-config.php:438
+msgid "Category menu label"
+msgstr ""
+
+#: ../safira/theme-config.php:439
+msgid "The label for category menu"
+msgstr ""
+
+#: ../safira/theme-config.php:440
+msgid "All Categories"
+msgstr ""
+
+#: ../safira/theme-config.php:445
+msgid "Number of items"
+msgstr ""
+
+#: ../safira/theme-config.php:446
+msgid "Number of menu items level 1 to show, default value: 8"
+msgstr ""
+
+#: ../safira/theme-config.php:456
+msgid "More items label"
+msgstr ""
+
+#: ../safira/theme-config.php:457
+msgid "The label for more items button"
+msgstr ""
+
+#: ../safira/theme-config.php:463
+msgid "Less items label"
+msgstr ""
+
+#: ../safira/theme-config.php:464
+msgid "The label for less items button"
+msgstr ""
+
+#: ../safira/theme-config.php:465
+msgid "Less Categories"
+msgstr ""
+
+#: ../safira/theme-config.php:501
+msgid "Footer"
+msgstr ""
+
+#: ../safira/theme-config.php:502
+msgid "Footer options"
+msgstr ""
+
+#: ../safira/theme-config.php:508
+msgid "Footer Layout"
+msgstr ""
+
+#: ../safira/theme-config.php:518
+msgid "Footer background"
+msgstr ""
+
+#: ../safira/theme-config.php:525
+msgid "Footer text color"
+msgstr ""
+
+#: ../safira/theme-config.php:526
+msgid "Pick a color for footer color."
+msgstr ""
+
+#: ../safira/theme-config.php:534
+msgid "Footer title color"
+msgstr ""
+
+#: ../safira/theme-config.php:535
+msgid "Pick a color for footer title color."
+msgstr ""
+
+#: ../safira/theme-config.php:543
+msgid "Footer link color"
+msgstr ""
+
+#: ../safira/theme-config.php:544
+msgid "Pick a color for footer link color."
+msgstr ""
+
+#: ../safira/theme-config.php:562
+msgid "Enter social links"
+msgstr ""
+
+#: ../safira/theme-config.php:563
+msgid "Drag/drop to re-arrange"
+msgstr ""
+
+#: ../safira/theme-config.php:567
+msgid "Facebook"
+msgstr ""
+
+#: ../safira/theme-config.php:568
+msgid "Twitter"
+msgstr ""
+
+#: ../safira/theme-config.php:569
+msgid "Instagram"
+msgstr ""
+
+#: ../safira/theme-config.php:570
+msgid "Tumblr"
+msgstr ""
+
+#: ../safira/theme-config.php:571
+msgid "Pinterest"
+msgstr ""
+
+#: ../safira/theme-config.php:572
+msgid "Google+"
+msgstr ""
+
+#: ../safira/theme-config.php:573
+msgid "LinkedIn"
+msgstr ""
+
+#: ../safira/theme-config.php:574
+msgid "Behance"
+msgstr ""
+
+#: ../safira/theme-config.php:575
+msgid "Dribbble"
+msgstr ""
+
+#: ../safira/theme-config.php:576
+msgid "Youtube"
+msgstr ""
+
+#: ../safira/theme-config.php:577
+msgid "Vimeo"
+msgstr ""
+
+#: ../safira/theme-config.php:578
+msgid "Rss"
+msgstr ""
+
+#: ../safira/theme-config.php:599
+msgid "Fonts"
+msgstr ""
+
+#: ../safira/theme-config.php:600
+msgid "Fonts options"
+msgstr ""
+
+#: ../safira/theme-config.php:606
+msgid "Body font"
+msgstr ""
+
+#: ../safira/theme-config.php:614
+msgid "Main body font."
+msgstr ""
+
+#: ../safira/theme-config.php:627
+msgid "Heading font"
+msgstr ""
+
+#: ../safira/theme-config.php:636
+msgid "Heading font."
+msgstr ""
+
+#: ../safira/theme-config.php:647
+msgid "Heading font 2"
+msgstr ""
+
+#: ../safira/theme-config.php:657
+msgid "Second font for heading"
+msgstr ""
+
+#: ../safira/theme-config.php:669
+msgid "Menu font"
+msgstr ""
+
+#: ../safira/theme-config.php:678
+msgid "Menu font."
+msgstr ""
+
+#: ../safira/theme-config.php:690
+msgid "Sub menu font"
+msgstr ""
+
+#: ../safira/theme-config.php:699
+msgid "sub menu font."
+msgstr ""
+
+#: ../safira/theme-config.php:711
+msgid "Dropdown menu font"
+msgstr ""
+
+#: ../safira/theme-config.php:720
+msgid "Dropdown menu font."
+msgstr ""
+
+#: ../safira/theme-config.php:732
+msgid "Category menu font"
+msgstr ""
+
+#: ../safira/theme-config.php:741
+msgid "Category menu font."
+msgstr ""
+
+#: ../safira/theme-config.php:753
+msgid "Category sub menu font"
+msgstr ""
+
+#: ../safira/theme-config.php:762
+msgid "Category sub menu font."
+msgstr ""
+
+#: ../safira/theme-config.php:774
+msgid "Price font"
+msgstr ""
+
+#: ../safira/theme-config.php:783
+msgid "Price font."
+msgstr ""
+
+#: ../safira/theme-config.php:797
+msgid "Upload images and links"
+msgstr ""
+
+#: ../safira/theme-config.php:803
+msgid "Images"
+msgstr ""
+
+#: ../safira/theme-config.php:804
+msgid "Upload images and enter links."
+msgstr ""
+
+#: ../safira/theme-config.php:807 ../safira/theme-config.php:826
+msgid "Description"
+msgstr ""
+
+#: ../safira/theme-config.php:808 ../safira/theme-config.php:827
+msgid "Link"
+msgstr ""
+
+#: ../safira/theme-config.php:816
+msgid "Upload brand logos and links"
+msgstr ""
+
+#: ../safira/theme-config.php:822
+msgid "Logos"
+msgstr ""
+
+#: ../safira/theme-config.php:823
+msgid "Upload logo image and enter logo link."
+msgstr ""
+
+#: ../safira/theme-config.php:834
+msgid "Inner Brand Logos"
+msgstr ""
+
+#: ../safira/theme-config.php:841
+msgid "Brand carousel in inner pages"
+msgstr ""
+
+#: ../safira/theme-config.php:842
+msgid "Show brand carousel in inner pages"
+msgstr ""
+
+#: ../safira/theme-config.php:848 ../safira/theme-config.php:1154
+msgid "Auto scroll"
+msgstr ""
+
+#: ../safira/theme-config.php:854
+msgid "Scroll amount"
+msgstr ""
+
+#: ../safira/theme-config.php:855
+msgid "Number of logos to scroll one time, default value: 1"
+msgstr ""
+
+#: ../safira/theme-config.php:865 ../safira/theme-config.php:1160
+msgid "Pause in (seconds)"
+msgstr ""
+
+#: ../safira/theme-config.php:866 ../safira/theme-config.php:1161
+msgid "Pause time, default value: 3000"
+msgstr ""
+
+#: ../safira/theme-config.php:876 ../safira/theme-config.php:1171
+msgid "Animate in (seconds)"
+msgstr ""
+
+#: ../safira/theme-config.php:877 ../safira/theme-config.php:1172
+msgid "Animate time, default value: 2000"
+msgstr ""
+
+#: ../safira/theme-config.php:888 ../safira/theme-config.php:940
+#: ../safira/theme-config.php:1015 ../safira/theme-config.php:1113
+msgid "Sidebar"
+msgstr ""
+
+#: ../safira/theme-config.php:889
+msgid ""
+"Sidebar options. Shop/Product sidebar and Blog sidebar are in Product and "
+"Blog sections"
+msgstr ""
+
+#: ../safira/theme-config.php:895
+msgid "Inner Pages Sidebar Position"
+msgstr ""
+
+#: ../safira/theme-config.php:896
+msgid ""
+"Sidebar Position on pages (default pages). If there is no widget in this "
+"sidebar, the layout will be nosidebar"
+msgstr ""
+
+#: ../safira/theme-config.php:906
+msgid "Custom Sidebars"
+msgstr ""
+
+#: ../safira/theme-config.php:907
+msgid "Add more sidebars"
+msgstr ""
+
+#: ../safira/theme-config.php:908
+msgid ""
+"Enter sidebar name (Only allow digits and letters). click Add more to add "
+"more sidebar. Edit your page to select a sidebar "
+msgstr ""
+
+#: ../safira/theme-config.php:914 ../safira/woocommerce/cart/cart.php:26
+#: ../safira/woocommerce/cart/cart.php:64
+msgid "Product"
+msgstr ""
+
+#: ../safira/theme-config.php:915
+msgid "Use this section to select options for product"
+msgstr ""
+
+#: ../safira/theme-config.php:921
+msgid "Banner image in shop pages"
+msgstr ""
+
+#: ../safira/theme-config.php:924
+msgid ""
+"Upload image here. If you do not want to show shop banner, remove the image."
+msgstr ""
+
+#: ../safira/theme-config.php:929
+msgid "Show individual category thumbnail"
+msgstr ""
+
+#: ../safira/theme-config.php:930
+msgid "Show individual category thumbnail in product category pages. "
+msgstr ""
+
+#: ../safira/theme-config.php:931
+msgid ""
+"If yes, product category page will display the thumbnail as banner (setting "
+"product category thumbnail in path: admin->Products->Categories). If no, "
+"product category page will display the shop banner (image uploaded above)."
+msgstr ""
+
+#: ../safira/theme-config.php:937
+msgid "Shop Layout"
+msgstr ""
+
+#: ../safira/theme-config.php:938 ../safira/theme-config.php:1012
+#: ../safira/theme-config.php:1111
+msgid "If there is no widget in this sidebar, the layout will be nosidebar"
+msgstr ""
+
+#: ../safira/theme-config.php:941 ../safira/theme-config.php:1016
+msgid "Full Width"
+msgstr ""
+
+#: ../safira/theme-config.php:948
+msgid "Shop Sidebar Position"
+msgstr ""
+
+#: ../safira/theme-config.php:949
+msgid "Sidebar Position on shop page."
+msgstr ""
+
+#: ../safira/theme-config.php:959
+msgid "Shop default view"
+msgstr ""
+
+#: ../safira/theme-config.php:962
+msgid "Grid View"
+msgstr ""
+
+#: ../safira/theme-config.php:963
+msgid "List View"
+msgstr ""
+
+#: ../safira/theme-config.php:969
+msgid "Products per page"
+msgstr ""
+
+#: ../safira/theme-config.php:970
+msgid "Amount of products per page in category page"
+msgstr ""
+
+#: ../safira/theme-config.php:980
+msgid "Product columns"
+msgstr ""
+
+#: ../safira/theme-config.php:981
+msgid "Amount of product columns in category page"
+msgstr ""
+
+#: ../safira/theme-config.php:982 ../safira/theme-config.php:994
+msgid "Only works with: 1, 2, 3, 4, 6"
+msgstr ""
+
+#: ../safira/theme-config.php:992
+msgid "Product columns on full width shop"
+msgstr ""
+
+#: ../safira/theme-config.php:993
+msgid "Amount of product columns in full width category page"
+msgstr ""
+
+#: ../safira/theme-config.php:1005
+msgid "Product page"
+msgstr ""
+
+#: ../safira/theme-config.php:1011
+msgid "Single Product Layout"
+msgstr ""
+
+#: ../safira/theme-config.php:1022
+msgid "Single Product Sidebar Position"
+msgstr ""
+
+#: ../safira/theme-config.php:1023
+msgid "Sidebar Position on single product page."
+msgstr ""
+
+#: ../safira/theme-config.php:1033
+msgid "Banner image for single product pages"
+msgstr ""
+
+#: ../safira/theme-config.php:1036
+msgid ""
+"Upload image here. If you do not want to show single product banner, remove "
+"the image."
+msgstr ""
+
+#: ../safira/theme-config.php:1041
+msgid "Related product title"
+msgstr ""
+
+#: ../safira/theme-config.php:1042
+#: ../safira/woocommerce/single-product/related.php:28
+msgid "Related Products"
+msgstr ""
+
+#: ../safira/theme-config.php:1047
+msgid "Upsell product title"
+msgstr ""
+
+#: ../safira/theme-config.php:1048
+#: ../safira/woocommerce/single-product/up-sells.php:28
+msgid "Upsell Products"
+msgstr ""
+
+#: ../safira/theme-config.php:1053
+msgid "Number of related products"
+msgstr ""
+
+#: ../safira/theme-config.php:1063
+msgid "Product share title"
+msgstr ""
+
+#: ../safira/theme-config.php:1064
+msgid "Share"
+msgstr ""
+
+#: ../safira/theme-config.php:1070 ../safira/theme-config.php:1077
+#: ../safira/theme-config.php:1089
+#: ../safira/woocommerce/content-product-archive.php:75
+#: ../safira/woocommerce/content-product-archive.php:157
+#: ../safira/woocommerce/content-product.php:72
+msgid "Quick View"
+msgstr ""
+
+#: ../safira/theme-config.php:1076
+msgid "View details text"
+msgstr ""
+
+#: ../safira/theme-config.php:1082
+msgid "View all features text"
+msgstr ""
+
+#: ../safira/theme-config.php:1083
+msgid "This is the text on quick view box"
+msgstr ""
+
+#: ../safira/theme-config.php:1084
+msgid "See all features"
+msgstr ""
+
+#: ../safira/theme-config.php:1090
+msgid "Show quick view button on all pages"
+msgstr ""
+
+#: ../safira/theme-config.php:1098
+msgid "Use this section to select options for blog"
+msgstr ""
+
+#: ../safira/theme-config.php:1104
+msgid "Blog header text"
+msgstr ""
+
+#: ../safira/theme-config.php:1110
+msgid "Blog Layout"
+msgstr ""
+
+#: ../safira/theme-config.php:1114
+msgid "No Sidebar"
+msgstr ""
+
+#: ../safira/theme-config.php:1115
+msgid "Large Image"
+msgstr ""
+
+#: ../safira/theme-config.php:1116
+#: ../safira/woocommerce/archive-product.php:185
+msgid "Grid"
+msgstr ""
+
+#: ../safira/theme-config.php:1123
+msgid "Blog Sidebar Position"
+msgstr ""
+
+#: ../safira/theme-config.php:1124
+msgid "Sidebar Position on Blog pages."
+msgstr ""
+
+#: ../safira/theme-config.php:1134
+msgid "Read more text"
+msgstr ""
+
+#: ../safira/theme-config.php:1135
+msgid "Read More"
+msgstr ""
+
+#: ../safira/theme-config.php:1140
+msgid "Blog share title"
+msgstr ""
+
+#: ../safira/theme-config.php:1141
+msgid "Share this post"
+msgstr ""
+
+#: ../safira/theme-config.php:1148
+msgid "Use this section to select options for Testimonials"
+msgstr ""
+
+#: ../safira/theme-config.php:1183
+msgid "Error 404 Page"
+msgstr ""
+
+#: ../safira/theme-config.php:1184
+msgid "Error 404 page options"
+msgstr ""
+
+#: ../safira/theme-config.php:1190
+msgid "Error 404 background"
+msgstr ""
+
+#: ../safira/theme-config.php:1198
+msgid "Less Compiler"
+msgstr ""
+
+#: ../safira/theme-config.php:1199
+msgid ""
+"Turn on this option to apply all theme options. Turn of when you have "
+"finished changing theme options and your site is ready."
+msgstr ""
+
+#: ../safira/theme-config.php:1205
+msgid "Enable Less Compiler"
+msgstr ""
+
+#: ../safira/theme-config.php:1211
+msgid "<strong>Theme URL:</strong> "
+msgstr ""
+
+#: ../safira/theme-config.php:1212
+msgid "<strong>Author:</strong> "
+msgstr ""
+
+#: ../safira/theme-config.php:1213
+msgid "<strong>Version:</strong> "
+msgstr ""
+
+#: ../safira/theme-config.php:1217
+msgid "<strong>Tags:</strong> "
+msgstr ""
+
+#: ../safira/theme-config.php:1221
+msgid "Import / Export"
+msgstr ""
+
+#: ../safira/theme-config.php:1222
+msgid "Import and Export your Redux Framework settings from file, text or URL."
+msgstr ""
+
+#: ../safira/theme-config.php:1228
+msgid "Import Export"
+msgstr ""
+
+#: ../safira/theme-config.php:1229
+msgid "Save and restore your Redux options"
+msgstr ""
+
+#: ../safira/theme-config.php:1236
+msgid "Theme Information"
+msgstr ""
+
+#: ../safira/theme-config.php:1250
+msgid "Theme Information 1"
+msgstr ""
+
+#: ../safira/theme-config.php:1251 ../safira/theme-config.php:1256
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../safira/theme-config.php:1255
+msgid "Theme Information 2"
+msgstr ""
+
+#: ../safira/theme-config.php:1259
+msgid "<p>This is the sidebar content, HTML is allowed.</p>"
+msgstr ""
+
+#: ../safira/theme-config.php:1274 ../safira/theme-config.php:1275
+msgid "Theme Options"
+msgstr ""
+
+#: ../safira/theme-config.php:1336
+msgid "Visit us on GitHub"
+msgstr ""
+
+#: ../safira/theme-config.php:1341
+msgid "Like us on Facebook"
+msgstr ""
+
+#: ../safira/theme-config.php:1346
+msgid "Follow us on Twitter"
+msgstr ""
+
+#: ../safira/theme-config.php:1351
+msgid "Find us on LinkedIn"
+msgstr ""
+
+#: ../safira/theme-config.php:1384
+msgid "just testing"
+msgstr ""
+
+#: ../safira/woocommerce/archive-product.php:94
+#: ../safira/woocommerce/archive-product.php:110
+msgid "Shop banner"
+msgstr ""
+
+#: ../safira/woocommerce/archive-product.php:184
+msgid "View on"
+msgstr ""
+
+#: ../safira/woocommerce/archive-product.php:186
+msgid "List"
+msgstr ""
+
+#: ../safira/woocommerce/cart/cart.php:27
+#: ../safira/woocommerce/cart/cart.php:80
+msgid "Price"
+msgstr ""
+
+#: ../safira/woocommerce/cart/cart.php:28
+#: ../safira/woocommerce/cart/cart.php:85
+msgid "Quantity"
+msgstr ""
+
+#: ../safira/woocommerce/cart/cart.php:29
+#: ../safira/woocommerce/cart/cart.php:101
+#: ../safira/woocommerce/myaccount/my-orders.php:37
+#: ../safira/woocommerce/myaccount/my-orders.php:58
+msgid "Total"
+msgstr ""
+
+#: ../safira/woocommerce/cart/cart.php:48
+#: ../safira/woocommerce/cart/mini-cart.php:56
+msgid "Remove this item"
+msgstr ""
+
+#: ../safira/woocommerce/cart/cart.php:76
+msgid "Available on backorder"
+msgstr ""
+
+#: ../safira/woocommerce/cart/cart.php:114
+msgid "Update cart"
+msgstr ""
+
+#: ../safira/woocommerce/cart/cart.php:127
+msgid "Coupon"
+msgstr ""
+
+#: ../safira/woocommerce/cart/cart.php:128
+msgid "Enter your coupon code if you have one."
+msgstr ""
+
+#: ../safira/woocommerce/cart/cart.php:129
+msgid "Coupon code"
+msgstr ""
+
+#: ../safira/woocommerce/cart/cart.php:129
+msgid "Apply coupon"
+msgstr ""
+
+#: ../safira/woocommerce/cart/cross-sells.php:40
+msgid "You may be interested in&hellip;"
+msgstr ""
+
+#: ../safira/woocommerce/cart/mini-cart.php:78
+msgid "Subtotal"
+msgstr ""
+
+#: ../safira/woocommerce/cart/mini-cart.php:82
+msgid "No products in the cart."
+msgstr ""
+
+#: ../safira/woocommerce/checkout/form-checkout.php:23
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: ../safira/woocommerce/checkout/form-checkout.php:47
+msgid "Your order"
+msgstr ""
+
+#: ../safira/woocommerce/content-product-archive.php:181
+#, php-format
+msgid "%s review"
+msgstr ""
+
+#: ../safira/woocommerce/content-product-archive.php:187
+msgid "Add Your Reviews"
+msgstr ""
+
+#: ../safira/woocommerce/content-product.php:164
+msgid "Shop Now"
+msgstr ""
+
+#: ../safira/woocommerce/loop/orderby.php:24
+msgid "Sort By :"
+msgstr ""
+
+#: ../safira/woocommerce/myaccount/my-orders.php:30
+msgid "Recent Orders"
+msgstr ""
+
+#: ../safira/woocommerce/myaccount/my-orders.php:34
+msgid "Order"
+msgstr ""
+
+#: ../safira/woocommerce/myaccount/my-orders.php:47
+msgid "Order Number"
+msgstr ""
+
+#: ../safira/woocommerce/myaccount/my-orders.php:59
+#, php-format
+msgid "%s for %s item"
+msgstr ""
+
+#: ../safira/woocommerce/myaccount/my-orders.php:67
+msgid "Pay"
+msgstr ""
+
+#: ../safira/woocommerce/myaccount/my-orders.php:78
+msgid "View"
+msgstr ""
+
+#: ../safira/woocommerce/single-product.php:18
+msgid "Product Details"
+msgstr ""
+
+#: ../safira/woocommerce/single-product/product-image-magnifier.php:33
+msgid "Placeholder"
+msgstr ""
+
+#: ../safira/woocommerce/single-product/rating.php:30
+#, php-format
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: ../safira/woocommerce/single-product/rating.php:32
+#, php-format
+msgid "out of %s5%s"
+msgstr ""
+
+#: ../safira/woocommerce/single-product/rating.php:33
+#, php-format
+msgid "based on %s customer rating"
+msgstr ""
+
+#: ../safira/woocommerce/single-product/rating.php:36
+#, php-format
+msgid "%s customer review"
+msgstr ""
+
+#: ../safira/woocommerce/single-product/related.php:27
+#: ../safira/woocommerce/single-product/up-sells.php:27
+msgid "Recently added our store"
+msgstr ""
